@@ -59,8 +59,10 @@
     <Compile Include="IO\ConsoleInput.cs" />
     <Compile Include="IO\ConsoleOutput.cs" />
     <Compile Include="IO\FileLocation.cs" />
-    <Compile Include="IO\FileReader.cs" />
-    <Compile Include="IO\FileWriter.cs" />
+    <Compile Include="IO\FighterReader.cs" />
+    <Compile Include="IO\FighterWriter.cs" />
+    <Compile Include="IO\ItemReader.cs" />
+    <Compile Include="IO\ItemWriter.cs" />
     <Compile Include="IO\TextWriter.cs" />
     <Compile Include="Menus\AmmoMenu.cs" />
     <Compile Include="Menus\ArmorMenu.cs" />

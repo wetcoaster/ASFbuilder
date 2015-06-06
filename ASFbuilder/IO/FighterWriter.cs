@@ -8,7 +8,7 @@ using ASFbuilder.Menus;
 
 namespace ASFbuilder.IO
 {
-    class FileWriter
+    class FighterWriter
     {
         private Fighter AeroFighter { get; set; }                                           // Fighter being printed
         private string InputError { get; set; }                                             // Default error string
@@ -17,7 +17,7 @@ namespace ASFbuilder.IO
         
 
         // Constructor
-        public FileWriter(Fighter newFighter)
+        public FighterWriter(Fighter newFighter)
         {
             AeroFighter = newFighter;                                                       // Set fighter to passed parameter
             check = new ConsoleInput();                                                     // Initialize error checker

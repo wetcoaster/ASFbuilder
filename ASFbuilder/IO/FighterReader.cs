@@ -8,7 +8,7 @@ using ASFbuilder.Menus;
 
 namespace ASFbuilder.IO
 {
-    class FileReader
+    class FighterReader
     {
         const char SPLITTER = ',';                                                          // Character delimiter for data
         private Fighter AeroFighter { get; set; }                                           // Fighter being printed
@@ -18,7 +18,7 @@ namespace ASFbuilder.IO
 
 
         // Constructor
-        public FileReader(Fighter newFighter)
+        public FighterReader(Fighter newFighter)
         {
             AeroFighter = newFighter;                                                       // Set fighter to passed parameter
             check = new ConsoleInput();                                                     // Initialize error checker

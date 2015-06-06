@@ -102,7 +102,7 @@ namespace ASFbuilder.Menus
         // Load a fighter
         private void LoadFighter()
         {
-            FileReader reader = new FileReader(AeroFighter);                                // Creates new file reader
+            FighterReader reader = new FighterReader(AeroFighter);                                // Creates new file reader
             AeroFighter = reader.LoadFile();                                                // Loads file
             BuildMenu();                                                                    // Goes to build menu
         }
@@ -110,7 +110,7 @@ namespace ASFbuilder.Menus
         // Save current fighter
         private void SaveFighter()
         {
-            FileWriter writer = new FileWriter(AeroFighter);                                // Creates new file writer
+            FighterWriter writer = new FighterWriter(AeroFighter);                                // Creates new file writer
             writer.WriteFighter();                                                          // Saves fighter to file
         }
 
