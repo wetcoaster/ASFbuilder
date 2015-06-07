@@ -4,9 +4,11 @@ using ASFbuilder.Equipment;
 
 namespace ASFbuilder.Data
 {
+    // Hard coded data to be used by default if external equipment file is not found
     static class Ballistic
     {
-        public static List<Weapon> populateGuns(){
+        public static List<Weapon> populateGuns()
+        {
             List<Weapon> ballistics = new List<Weapon>();
 
             // Level 1 weapons

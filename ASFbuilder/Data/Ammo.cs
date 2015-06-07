@@ -4,6 +4,7 @@ using ASFbuilder.Equipment;
 
 namespace ASFbuilder.Data
 {
+    // Hard coded data to be used by default if external equipment file is not found
     static class Ammo
     {
         public static List<Equipment.Ammo> PopulateAmmo()

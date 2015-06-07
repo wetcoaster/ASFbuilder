@@ -6,6 +6,7 @@ namespace ASFbuilder.Data
 {
     static class Energy
     {
+        // Hard coded data to be used by default if external equipment file is not found
         public static List<Weapon> populateBeams()
         {
             List<Weapon> beams = new List<Weapon>();

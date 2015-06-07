@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ASFbuilder.IO
 {
+    // This class will be used for writing user-created equipment to the equipment files
     class ItemWriter
     {
     }
